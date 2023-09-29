@@ -11,6 +11,12 @@
 		383D5EFA2ABF5EF000D1047E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D5EF92ABF5EF000D1047E /* ContentView.swift */; };
 		383D5EFC2ABF5EF300D1047E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383D5EFB2ABF5EF300D1047E /* Assets.xcassets */; };
 		383D5EFF2ABF5EF300D1047E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383D5EFE2ABF5EF300D1047E /* Preview Assets.xcassets */; };
+		386AE94E2AC5AB1A00875D66 /* CustomizedAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AE94D2AC5AB1A00875D66 /* CustomizedAnimations.swift */; };
+		386AE9502AC5AF1D00875D66 /* AnimationBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AE94F2AC5AF1D00875D66 /* AnimationBindings.swift */; };
+		386AE9522AC5B59200875D66 /* ExplictAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AE9512AC5B59200875D66 /* ExplictAnimation.swift */; };
+		389DF4402AC7237C0035D223 /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DF43F2AC7237C0035D223 /* AnimationStack.swift */; };
+		389DF4422AC724BA0035D223 /* AnimationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DF4412AC724BA0035D223 /* AnimationGestures.swift */; };
+		389DF4442AC735240035D223 /* HiddingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DF4432AC735240035D223 /* HiddingTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		383D5EF92ABF5EF000D1047E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		383D5EFB2ABF5EF300D1047E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		383D5EFE2ABF5EF300D1047E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		386AE94D2AC5AB1A00875D66 /* CustomizedAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedAnimations.swift; sourceTree = "<group>"; };
+		386AE94F2AC5AF1D00875D66 /* AnimationBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBindings.swift; sourceTree = "<group>"; };
+		386AE9512AC5B59200875D66 /* ExplictAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplictAnimation.swift; sourceTree = "<group>"; };
+		389DF43F2AC7237C0035D223 /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
+		389DF4412AC724BA0035D223 /* AnimationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGestures.swift; sourceTree = "<group>"; };
+		389DF4432AC735240035D223 /* HiddingTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddingTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				383D5EF72ABF5EF000D1047E /* AnimationsApp.swift */,
 				383D5EF92ABF5EF000D1047E /* ContentView.swift */,
+				386AE94D2AC5AB1A00875D66 /* CustomizedAnimations.swift */,
+				386AE94F2AC5AF1D00875D66 /* AnimationBindings.swift */,
+				386AE9512AC5B59200875D66 /* ExplictAnimation.swift */,
+				389DF43F2AC7237C0035D223 /* AnimationStack.swift */,
+				389DF4412AC724BA0035D223 /* AnimationGestures.swift */,
+				389DF4432AC735240035D223 /* HiddingTransition.swift */,
 				383D5EFB2ABF5EF300D1047E /* Assets.xcassets */,
 				383D5EFD2ABF5EF300D1047E /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386AE9522AC5B59200875D66 /* ExplictAnimation.swift in Sources */,
+				389DF4402AC7237C0035D223 /* AnimationStack.swift in Sources */,
+				389DF4422AC724BA0035D223 /* AnimationGestures.swift in Sources */,
+				386AE9502AC5AF1D00875D66 /* AnimationBindings.swift in Sources */,
+				389DF4442AC735240035D223 /* HiddingTransition.swift in Sources */,
 				383D5EFA2ABF5EF000D1047E /* ContentView.swift in Sources */,
+				386AE94E2AC5AB1A00875D66 /* CustomizedAnimations.swift in Sources */,
 				383D5EF82ABF5EF000D1047E /* AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
